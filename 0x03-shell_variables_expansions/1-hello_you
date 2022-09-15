@@ -1,2 +1,2 @@
 #!/bin/bash
-echo hello $(whoami) #echo "hello $(id | cut -d " " -f 1 | grep -o '(\w*)' | tr -d '()')"
+echo hello $USER #echo "hello $(id | cut -d " " -f 1 | grep -o '(\w*)' | tr -d '()')"
